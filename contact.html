@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Anpadh Cafe</title>
+    <meta name="description" content="Contact Anpadh Cafe in Dehradun, Uttarakhand for inquiries, reservations, or feedback. We're located near Arihant Hostels in Pondha.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-text">Anpadh Cafe</div>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Title Section -->
+        <section class="page-title">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="bread-crumb">
+                    <a href="index.html">Home</a> / <span>Contact</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-info section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <div class="separator"></div>
+                    <p>We'd love to hear from you. Here's how you can reach us.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>Near Arihant Hostels, Pondha, Dehradun, Uttarakhand - 248007</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+918929577778">8929577778</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Address</h3>
+                        <p><a href="mailto:cafeanpadh15@gmail.com">cafeanpadh15@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Saturday: 11:00 AM - 10:00 PM</p>
+                        <p>Sunday: 11:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map and Form Section -->
+        <section class="map-form-section section-padding bg-light">
+            <div class="container">
+                <div class="map-form-wrapper">
+                    <div class="map-container">
+                        <div class="section-header">
+                            <h2>Find Us</h2>
+                            <div class="separator"></div>
+                        </div>
+                        <div id="map"></div>
+                        <div class="directions">
+                            <p><i class="fas fa-info-circle"></i> Landmark: Look for us near Arihant Hostels in Pondha area.</p>
+                            <a href="https://maps.google.com/?q=Anpadh+Cafe,+Pondha,+Dehradun,+Uttarakhand,+India" class="btn btn-outline" target="_blank">Get Directions</a>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <div class="section-header">
+                            <h2>Send a Message</h2>
+                            <div class="separator"></div>
+                        </div>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="reservation">Table Reservation</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="catering">Catering Query</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Person Section -->
+        <section class="contact-person section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Meet Our Contact Person</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="contact-person-content">
+                    <div class="contact-person-image">
+                        <div class="person-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                    <div class="contact-person-info">
+                        <h3>Arun Saldana</h3>
+                        <p class="person-title">Founder & Manager</p>
+                        <p>For any special requests, reservations, or inquiries, feel free to get in touch directly with Arun. He'll be happy to assist you with any questions about our cafe or services.</p>
+                        <div class="person-contact-details">
+                            <p><i class="fas fa-phone"></i> <a href="tel:+918929577778">8929577778</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:cafeanpadh15@gmail.com">cafeanpadh15@gmail.com</a></p>
+                        </div>
+                        <p class="alt-contact">Alternate Contact: <a href="mailto:ashusarg@gmail.com">ashusarg@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you offer table reservations?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we accept table reservations for groups of 4 or more. Please call us at 8929577778 at least 2 hours in advance to reserve your table.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is parking available nearby?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we have limited parking space available right in front of our cafe. There's also street parking available nearby.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you offer catering services?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer catering for small to medium-sized events. Please contact us at least 3 days in advance to discuss menu options and pricing.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Are you open on holidays?</h3>
+                            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our opening hours may vary on major holidays. We recommend calling ahead to confirm our schedule on specific holidays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-text">Anpadh Cafe</div>
+                    </div>
+                    <p>Serving authentic North Indian cuisine with love since 2015.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Near Arihant Hostels, Pondha, Dehradun, Uttarakhand - 248007</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+918929577778">8929577778</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:cafeanpadh15@gmail.com">cafeanpadh15@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li><span>Monday - Saturday:</span> 11:00 AM - 10:00 PM</li>
+                        <li><span>Sunday:</span> 11:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Anpadh Cafe. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-nav">
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-contact">
+            <a href="tel:+918929577778" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Call Us</a>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize map
+        document.addEventListener('DOMContentLoaded', function() {
+            // Dehradun coordinates (approximate for Anpadh Cafe)
+            const cafe = [30.316496, 78.032188]; 
+            
+            // Create map
+            const map = L.map('map').setView(cafe, 15);
+            
+            // Add OpenStreetMap tiles
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            
+            // Add marker for cafe location
+            L.marker(cafe).addTo(map)
+                .bindPopup('Anpadh Cafe<br>Near Arihant Hostels, Pondha')
+                .openPopup();
+        });
+
+        // FAQ toggle
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                // Toggle current item
+                item.classList.toggle('open');
+                const icon = item.querySelector('.faq-toggle i');
+                icon.classList.toggle('fa-plus');
+                icon.classList.toggle('fa-minus');
+                
+                // Close other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('open')) {
+                        otherItem.classList.remove('open');
+                        const otherIcon = otherItem.querySelector('.faq-toggle i');
+                        otherIcon.classList.add('fa-plus');
+                        otherIcon.classList.remove('fa-minus');
+                    }
+                });
+            });
+        });
+
+        // Contact form submission
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                contactForm.reset();
+            });
+        }
+    </script>
+</body>
+</html>

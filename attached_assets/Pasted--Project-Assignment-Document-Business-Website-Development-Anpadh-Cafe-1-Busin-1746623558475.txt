@@ -1,0 +1,171 @@
+# *Project Assignment Document*
+
+## *Business Website Development – Anpadh Cafe*
+
+---
+
+### *1. Business Name*
+
+*Parent Company:* Anpadh Cafe
+*Sub-Brand (if any):* N/A
+
+---
+
+### *2. Business Overview*
+
+* *Founded:* 2015 in Dehradun, Uttarakhand
+* *Owner:* Arun Saldana
+* *Core Business Activities:*
+
+  * Serving traditional North Indian meals
+  * Specializing in Paranthas, Thalis, and home-style Indian food
+* *Mission/Key Values:*
+
+  * Promote affordable, authentic Indian meals
+  * Focus on homely taste, hygiene, and generous portions
+  * Celebrate local culinary traditions
+* *Sub-Brand Info:* N/A
+
+---
+
+### *3. Website Purpose*
+
+* Showcase signature dishes and daily specials
+* Share the cafe’s unique story and values
+* Enable direct inquiries and reservation requests
+* Build brand recognition locally and online
+* Share testimonials and photo gallery for emotional connection
+
+---
+
+### *4. Target Audience*
+
+*Ideal Customers:*
+
+* Age: 18–45 (primarily students, working professionals)
+* Interests: Local food, budget meals, authentic Indian cuisine
+* Buying Behavior: Value-for-money seekers, loyal repeat customers, word-of-mouth driven
+
+*Customer Segments:*
+
+* College students (nearby hostels)
+* Local families and office-goers
+* Tourists seeking local food experience
+
+---
+
+### *5. Products/Services Offered*
+
+*Main Offerings:*
+
+* *Paranthas:* Aloo, Paneer, Mix Veg, Methi, Cheese, served with curd & pickle
+* *Thalis:*
+
+  * *Regular Thali* – ₹120: 2 Sabzi, 4 Roti, Rice, Salad, Pickle
+  * *Special Thali* – ₹180: 3 Sabzi, Paneer, Raita, 4 Roti, Rice, Sweet
+* *Combo Meals:*
+
+  * Chole Bhature + Lassi – ₹130
+  * Rajma Chawal + Salad – ₹100
+  * Kadhi Chawal + Papad – ₹90
+* *Beverages:* Lassi, Masala Chai, Buttermilk
+* *Add-ons:* Extra Roti, Butter Add-ons, Sweets (Gulab Jamun, Rasgulla)
+* *Weekend Specials:* Biryani, Pulao, Halwa-Poori
+
+---
+
+### *6. Website Features Required*
+
+* [x] Homepage
+* [x] About Us
+* [x] Menu (Products/Services)
+* [x] Contact Us
+* [x] Testimonials (optional)
+* [x] Blog/News (optional – for food stories or updates)
+* [ ] Careers (not required)
+
+---
+
+### *7. Contact Information*
+
+* *Phone:* 8929577778
+* *Email:* [cafeanpadh15@gmail.com](mailto:cafeanpadh15@gmail.com)
+* *Physical Address:* Anpadh Cafe, near Arihant Hostels, Pondha, Dehradun, Uttarakhand – 248007
+* *Social Media Links:* (To be added if available)
+* *Get in Touch Contact Person:* Arun Sardana
+* *Alternate Email:* [ashusarg@gmail.com](mailto:ashusarg@gmail.com)
+
+---
+
+### *8. Website Design Preferences*
+
+* *Color Palette:* Warm, earthy tones – saffron, maroon, mustard
+* *Font Style:* Indian-style display fonts (for headings), readable sans-serif (for body text)
+* *Brand Vibe:* Homely, rustic, welcoming, authentic Indian street-café charm
+* *Inspirations:*
+
+  * Biryani by Kilo
+  * Samosa Singh
+  * Indian street food Instagram pages
+
+---
+
+### *9. Tools and Technology to Use*
+
+* *Platform:* WordPress (for easier CMS and updates)
+* *Languages/Frameworks:* HTML, CSS, JavaScript (for enhancements)
+* *Hosting:* Bluehost or Hostinger (India-based reliable hosting)
+
+---
+
+### *10. Basic Website Structure (Wireframe)*
+
+*Homepage:*
+
+* Hero Banner (image of a thali or parantha platter)
+* Tagline
+* Highlights: Popular dishes, price range, testimonials
+* Call-to-Action: "View Menu" / "Contact Us"
+
+*About Us:*
+
+* Founder’s story, origin of “Anpadh” name
+* Mission, vision
+* Food philosophy
+
+*Menu:*
+
+* Categorized (Thalis, Paranthas, Combos, Drinks, Add-ons)
+* Price in INR
+* Images of selected items
+
+*Contact Us:*
+
+* Embedded form (Name, Email, Message)
+* Map of location
+* Phone/WhatsApp button
+
+*Optional Pages:*
+
+* Testimonials (student and local reviews)
+* Blog (weekly food posts, updates)
+
+---
+
+### *11. Sample Homepage Tagline*
+
+"Where Every Meal Tastes Like Home – Served With Love Since 2015"
+
+---
+
+### *12. Extra Notes*
+
+* *Online Payment:* Not required currently
+* *Priority Areas:*
+
+  * Mobile-first design (for student users)
+  * Fast-loading pages
+  * Basic SEO (local search ranking)
+* *Tone & Emotion:* Warm, nostalgic, inviting, with real customer photos
+* *Photos:* Prefer real photos from the cafe
+* *Language:* English with possible Hindi phrases

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Anpadh Cafe</title>
+    <meta name="description" content="Explore our menu of authentic North Indian cuisine including paranthas, thalis, combo meals, and beverages at affordable prices.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-text">Anpadh Cafe</div>
+                    </a>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html" class="active">Menu</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Title Section -->
+        <section class="page-title">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <div class="bread-crumb">
+                    <a href="index.html">Home</a> / <span>Menu</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Navigation -->
+        <section class="menu-nav section-padding-small">
+            <div class="container">
+                <div class="menu-tabs">
+                    <button class="menu-tab active" data-category="all">All Items</button>
+                    <button class="menu-tab" data-category="paranthas">Paranthas</button>
+                    <button class="menu-tab" data-category="thalis">Thalis</button>
+                    <button class="menu-tab" data-category="combos">Combo Meals</button>
+                    <button class="menu-tab" data-category="beverages">Beverages</button>
+                    <button class="menu-tab" data-category="addons">Add-ons</button>
+                    <button class="menu-tab" data-category="specials">Weekend Specials</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Items Section -->
+        <section class="menu-section section-padding">
+            <div class="container">
+                <!-- Paranthas Section -->
+                <div class="menu-category" id="paranthas">
+                    <div class="section-header">
+                        <h2>Paranthas</h2>
+                        <div class="separator"></div>
+                        <p>All paranthas served with curd & homemade pickle</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="paranthas">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1604935879583-62d9a1ae223f?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Aloo Parantha">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Aloo Parantha</h3>
+                                <p>Stuffed with spiced potato filling</p>
+                                <div class="menu-item-price">₹60</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="paranthas">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=1371&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paneer Parantha">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Paneer Parantha</h3>
+                                <p>Stuffed with crumbled cottage cheese filling</p>
+                                <div class="menu-item-price">₹80</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="paranthas">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1603208000122-68d4547080ff?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mix Veg Parantha">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Mix Veg Parantha</h3>
+                                <p>Stuffed with mixed vegetable filling</p>
+                                <div class="menu-item-price">₹70</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="paranthas">
+                            <div class="menu-item-info">
+                                <h3>Methi Parantha</h3>
+                                <p>Stuffed with spiced fenugreek leaves</p>
+                                <div class="menu-item-price">₹75</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="paranthas">
+                            <div class="menu-item-info">
+                                <h3>Cheese Parantha</h3>
+                                <p>Stuffed with melting cheese filling</p>
+                                <div class="menu-item-price">₹85</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thalis Section -->
+                <div class="menu-category" id="thalis">
+                    <div class="section-header">
+                        <h2>Thalis</h2>
+                        <div class="separator"></div>
+                        <p>Complete meals with a variety of dishes</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="thalis">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1626132647523-66c8f331c677?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Regular Thali">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Regular Thali</h3>
+                                <p>2 Sabzi, 4 Roti, Rice, Salad, Pickle</p>
+                                <div class="menu-item-price">₹120</div>
+                            </div>
+                        </div>
+                        <div class="menu-item featured-menu-item" data-category="thalis">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Special Thali">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Special Thali</h3>
+                                <p>3 Sabzi, Paneer, Raita, 4 Roti, Rice, Sweet</p>
+                                <div class="menu-item-price">₹180</div>
+                                <div class="featured-tag">Popular</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Combo Meals Section -->
+                <div class="menu-category" id="combos">
+                    <div class="section-header">
+                        <h2>Combo Meals</h2>
+                        <div class="separator"></div>
+                        <p>Perfect combinations for a satisfying meal</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="combos">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1626132647523-66c8f331c677?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chole Bhature Combo">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Chole Bhature + Lassi</h3>
+                                <p>Spicy chickpea curry with fried bread and sweet lassi</p>
+                                <div class="menu-item-price">₹130</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="combos">
+                            <div class="menu-item-info">
+                                <h3>Rajma Chawal + Salad</h3>
+                                <p>Kidney bean curry with steamed rice and fresh salad</p>
+                                <div class="menu-item-price">₹100</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="combos">
+                            <div class="menu-item-info">
+                                <h3>Kadhi Chawal + Papad</h3>
+                                <p>Yogurt curry with steamed rice and crispy papad</p>
+                                <div class="menu-item-price">₹90</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages Section -->
+                <div class="menu-category" id="beverages">
+                    <div class="section-header">
+                        <h2>Beverages</h2>
+                        <div class="separator"></div>
+                        <p>Refreshing drinks to complement your meal</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="beverages">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1626082910497-b2987c968923?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sweet Lassi">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Sweet Lassi</h3>
+                                <p>Traditional Punjabi yogurt drink with cardamom</p>
+                                <div class="menu-item-price">₹40</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="beverages">
+                            <div class="menu-item-img">
+                                <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Masala Chai">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Masala Chai</h3>
+                                <p>Spiced Indian tea with ginger and cardamom</p>
+                                <div class="menu-item-price">₹25</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="beverages">
+                            <div class="menu-item-info">
+                                <h3>Buttermilk</h3>
+                                <p>Spiced yogurt drink with cumin and mint</p>
+                                <div class="menu-item-price">₹30</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add-ons Section -->
+                <div class="menu-category" id="addons">
+                    <div class="section-header">
+                        <h2>Add-ons</h2>
+                        <div class="separator"></div>
+                        <p>Extra items to enhance your meal</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="addons">
+                            <div class="menu-item-info">
+                                <h3>Extra Roti</h3>
+                                <p>Per piece</p>
+                                <div class="menu-item-price">₹10</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="addons">
+                            <div class="menu-item-info">
+                                <h3>Butter Add-on</h3>
+                                <p>Additional butter for any dish</p>
+                                <div class="menu-item-price">₹15</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="addons">
+                            <div class="menu-item-info">
+                                <h3>Gulab Jamun</h3>
+                                <p>2 pieces of sweet milk dumplings</p>
+                                <div class="menu-item-price">₹40</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="addons">
+                            <div class="menu-item-info">
+                                <h3>Rasgulla</h3>
+                                <p>2 pieces of sweet cheese dumplings</p>
+                                <div class="menu-item-price">₹40</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekend Specials Section -->
+                <div class="menu-category" id="specials">
+                    <div class="section-header">
+                        <h2>Weekend Specials</h2>
+                        <div class="separator"></div>
+                        <p>Available only on Saturdays and Sundays</p>
+                    </div>
+                    <div class="menu-grid">
+                        <div class="menu-item" data-category="specials">
+                            <div class="menu-item-info">
+                                <h3>Veg Biryani</h3>
+                                <p>Fragrant rice with mixed vegetables and spices</p>
+                                <div class="menu-item-price">₹140</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="specials">
+                            <div class="menu-item-info">
+                                <h3>Pulao</h3>
+                                <p>Mild seasoned rice with vegetables</p>
+                                <div class="menu-item-price">₹120</div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="specials">
+                            <div class="menu-item-info">
+                                <h3>Halwa-Poori</h3>
+                                <p>Semolina halwa with deep-fried bread</p>
+                                <div class="menu-item-price">₹100</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta section-padding bg-accent">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Hungry Already?</h2>
+                    <p>Visit us or call to place your order</p>
+                    <a href="tel:+918929577778" class="btn btn-light"><i class="fas fa-phone-alt"></i> 8929577778</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-text">Anpadh Cafe</div>
+                    </div>
+                    <p>Serving authentic North Indian cuisine with love since 2015.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Near Arihant Hostels, Pondha, Dehradun, Uttarakhand - 248007</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+918929577778">8929577778</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:cafeanpadh15@gmail.com">cafeanpadh15@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li><span>Monday - Saturday:</span> 11:00 AM - 10:00 PM</li>
+                        <li><span>Sunday:</span> 11:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Anpadh Cafe. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-nav">
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-contact">
+            <a href="tel:+918929577778" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Call Us</a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

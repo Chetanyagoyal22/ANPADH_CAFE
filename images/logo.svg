@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <!-- Background shape -->
+  <rect x="10" y="20" width="280" height="60" rx="30" ry="30" fill="#FFF8F0" />
+  
+  <!-- Text "Anpadh Cafe" -->
+  <text x="150" y="63" font-family="'Rozha One', serif" font-size="36" text-anchor="middle" fill="#B3432B">Anpadh Cafe</text>
+  
+  <!-- Decorative elements -->
+  <!-- Spice/leaf motif left -->
+  <path d="M30,50 C35,40 45,45 40,55 C38,60 35,58 30,50 Z" fill="#D76D3D" />
+  <path d="M35,53 C25,55 30,65 40,60 C45,58 42,55 35,53 Z" fill="#9B2335" />
+  
+  <!-- Spice/leaf motif right -->
+  <path d="M270,50 C265,40 255,45 260,55 C262,60 265,58 270,50 Z" fill="#D76D3D" />
+  <path d="M265,53 C275,55 270,65 260,60 C255,58 258,55 265,53 Z" fill="#9B2335" />
+  
+  <!-- Small steam swirls (representing food) -->
+  <path d="M125,35 C120,30 123,25 127,27 C130,29 128,33 125,35 Z" fill="#D76D3D" fill-opacity="0.5" />
+  <path d="M175,35 C180,30 177,25 173,27 C170,29 172,33 175,35 Z" fill="#D76D3D" fill-opacity="0.5" />
+  
+  <!-- Decorative line below text -->
+  <line x1="90" y1="70" x2="210" y2="70" stroke="#B3432B" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Small decorative dots -->
+  <circle cx="85" cy="70" r="2" fill="#9B2335" />
+  <circle cx="215" cy="70" r="2" fill="#9B2335" />
+</svg>
